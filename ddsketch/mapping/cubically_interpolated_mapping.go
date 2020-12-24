@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/DataDog/sketches-go/ddsketch/pb/sketchpb"
+	"github.com/phacops/sketches-go/ddsketch/pb/sketchpb"
 )
 
 const (
@@ -24,7 +24,7 @@ const (
 // of the logarithm to the base 2 from the binary representations of floating-point values and cubically
 // interpolating the logarithm in-between.
 // More detailed documentation of this method can be found in:
-// <a href="https://github.com/DataDog/sketches-java/">sketches-java</a>
+// <a href="https://github.com/phacops/sketches-java/">sketches-java</a>
 type CubicallyInterpolatedMapping struct {
 	relativeAccuracy      float64
 	multiplier            float64
