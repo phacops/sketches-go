@@ -7,7 +7,8 @@ package mapping
 
 import (
 	"fmt"
-	"github.com/phacops/sketches-go/ddsketch/pb/sketchpb"
+
+	"github.com/phacops/sketches-go/sketchpb"
 )
 
 const (

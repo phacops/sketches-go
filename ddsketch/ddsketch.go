@@ -10,8 +10,8 @@ import (
 	"math"
 
 	"github.com/phacops/sketches-go/ddsketch/mapping"
-	"github.com/phacops/sketches-go/ddsketch/pb/sketchpb"
 	"github.com/phacops/sketches-go/ddsketch/store"
+	"github.com/phacops/sketches-go/sketchpb"
 )
 
 type DDSketch struct {
